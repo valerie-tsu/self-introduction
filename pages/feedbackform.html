@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<htmal>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>feedbackform</title>
+<link href="feedbackform.css" rel="stylesheet" type="text/css">
+</head>
+	
+<body>
+ <!--Main Container-->
+ <div class="container">   
+  <h2>&nbsp;HELP US TO IMPROVE!</h2>  
+  <p><b>Please complete the form below to let me know what you think about my website. If you would like a response, please include your email address.</b></p>
+  <!--Form-->
+	 <form enctype="text/plain"action="mailto:u6546485@anu.edu.au">			 
+     How do you rate your overall experience?
+     <p>
+	  <label class="radio-inline">
+	  <input type="radio" name="experience" id="radio_experience" value="bad" >Bad </label>
+	  <label class="radio-inline">
+	  <input type="radio" name="experience" id="radio_experience" value="average" >Average </label>
+	  <label class="radio-inline">
+	  <input type="radio" name="experience" id="radio_experience" value="good" >Good </label>
+	  </p>                     
+		
+	  
+	  Do you think this webpage useful?
+	  <p>
+	  <input type="text" name="favourit_part"size="60" maxlength="100" placeholder="Yes or No, Why">
+	  </p>
+		  
+	  What you have any comments?
+	  <p>
+	  <textarea name="comments" wrap="soft" maxlength="250"placeholder="I think.."></textarea>
+	  </p>
+		  
+	  Your email?
+      <p><input type="email" name="email" size="60" maxlength="100"placeholder="Your email address" >
+	  </p>
+		  
+	<!--Submission-->
+      <div id="submit">
+	  <button type="submit" value="Send it">SUBMIT</button>
+	  or
+	  <button type="reset" value="Clear">CLEAR</button>	
+	  </div> 			
+	</form>	 
+  </div>
+</body>
+</html>

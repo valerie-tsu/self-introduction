@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: source-sans-pro;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+
+/* Container */
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1500px;
+	background-color: white;
+}
+
+/* Navigation */
+header {
+	width: 100%;
+	height: 10%;
+	background-color: #8B334B;
+	border-bottom: 3px solid white;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+
+}
+nav {
+	float: right;
+	width: 50%;
+	text-align: center;
+	margin-right: 25px;
+	margin-top: 40px
+}
+header nav ul {
+	list-style: none;
+	float: right;
+}
+nav ul li {
+	float: left;
+	color: white;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	
+}
+ul li a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+.intro {
+	background-color: #FFFFFF;
+	padding-bottom: 35px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	display: inline-block;
+	background-color: #838383;
+	
+}
+
+.column {
+	width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+.intro .column h3 {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.intro .column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 30px;
+	font-weight:500;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 80%;
+	margin-top: 4%;
+	color:white
+}
+
+footer {
+	background-color: #8B334B;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+.feedback {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	text-align: center;
+	color:#DEB5CA;
+	font-size: 20px;
+	
+}
+
+h3{
+	color: #8B334B;
+	text-align: center;
+}
+
+/* Setting of each photo*/
+div.gallery {
+  margin-left: 20px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 320px;
+}
+
+/* Hover of photo*/
+div.gallery:hover {
+  border: 3px solid #FFFFFF;
+}
+
+
+/* Size of photo*/
+div.gallery img {
+  width: 100%;
+  height: 200px;
+}
+
+/* Description of each photo*/
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #8B334B;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+

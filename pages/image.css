@@ -1,0 +1,156 @@
+/* CSS Document */
+/* Body */
+body {
+	font-family: source-sans-pro;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+
+/* Container, set container to allow the margin */
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 2000px;
+	background-color: white;
+}
+
+/* Navigation Bar*/
+header {
+	width: 100%;
+	height: 5%;
+	background-color: #8B334B;
+	border-bottom: 3px solid white;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+
+}
+
+/* Setting of navigation bar*/
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-right: 25px;
+	margin-top: 40px
+}
+header nav ul {
+	list-style: none;
+	float: right;
+}
+/* Setting of the items of the navigation bar*/
+nav ul li {
+	float: left;
+	color: white;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	
+}
+ul li a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+/* The section of image map*/
+
+/* The background of the image map section*/
+.map {
+	background-color: #FFFFFF;
+	padding-bottom: 35px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	display: inline-block;
+	background-color: #838383;
+	
+}
+
+/* Set the size of the image map*/
+.image_map {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	
+}
+
+/* Description of the elements on image map*/
+.column {
+	width: 50%;
+	text-align: center;
+	padding-top: 30px;
+	float: left;
+}
+
+/* Setting of title*/
+.map .column h4 {
+	color: #FFFFFF;
+	text-align: center;
+	 
+}
+
+/* Description of the paragragh*/
+.map .column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 30px;
+	font-weight:500;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 80%;
+	margin-top: 4%;
+	color:white
+}
+
+/* The background of the photo gallery*/
+footer {
+	background-color: #8B334B;
+	padding-top: 60px;
+	padding-bottom: 700PX;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+
+/* Title of photo gallery*/
+h3{
+	color: #FFFFFF;
+	text-align: center;
+}
+
+/* Setting of each photo*/
+div.gallery {
+  margin-left: 20px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 320px;
+}
+
+/* Hover of photo*/
+div.gallery:hover {
+  border: 3px solid #FFFFFF;
+}
+
+
+/* Size of photo*/
+div.gallery img {
+  width: 100%;
+  height: 200px;
+}
+
+/* Description of each photo*/
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}

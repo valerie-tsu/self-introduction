@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*body*/
+body{
+	color: #FFFFFF;
+	background-color: darkgray;
+}
+
+/*Caption */
+caption {font-size: 14pt;
+         font-weight: bold;
+         color: #FFFFFF;
+}
+
+/*Table*/
+table {border-collapse: collapse;
+       width: 90%;
+       margin: 0px auto;
+       border-width: 3pt;
+       background-color: #8B334B;
+	   border-color: #FFFFFF;	   	  
+}
+
+/* Table cell */
+th, td {padding: 2px 10px 2px 10px;
+        border-width: 1pt;
+	    border-color: #FFFFFF;
+}
